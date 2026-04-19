@@ -34,32 +34,7 @@ WPF-приложение для управления процессами опе
 
 ---
 
-## Структура проекта
 
-```
-ProcessManagerUltimate/
-├── Converters/
-│   ├── BytesToMBConverter.cs        # Байты → МБ
-│   ├── CoreRangeConverter.cs        # Диапазон ядер для заголовка
-│   ├── PriorityToBrushConverter.cs  # Цвет строки по приоритету
-│   └── PriorityToRussianConverter.cs# Приоритет на русском языке
-├── Models/
-│   ├── ProcessInfo.cs               # Модель процесса
-│   ├── ThreadInfo.cs                # Модель потока
-│   ├── ProcessNode.cs               # Узел дерева процессов
-│   └── PriorityClassItem.cs         # Элемент списка приоритетов
-├── Services/
-│   ├── ProcessService.cs            # Работа с процессами через API
-│   ├── CpuMonitorService.cs         # Мониторинг загрузки ядер
-│   └── ProcessTreeService.cs        # Построение дерева процессов
-├── ViewModels/
-│   ├── BaseViewModel.cs             # Базовый класс с INotifyPropertyChanged
-│   └── MainViewModel.cs             # Логика главного окна
-└── Views/
-    └── MainWindow.xaml              # Главное окно приложения
-```
-
----
 
 ## Запуск
 
